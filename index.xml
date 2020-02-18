@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drand Title Test on drand - A Distributed Randomness Beacon</title>
-    <link>https://drand.io/</link>
+    <link>https://drand.github.io/</link>
     <description>Recent content in Drand Title Test on drand - A Distributed Randomness Beacon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 May 2019 10:48:52 +0200</lastBuildDate>
     
-	<atom:link href="https://drand.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://drand.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

@@ -5,7 +5,7 @@
   <title>drand - A Distributed Randomness Beacon</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="https://drand.io/css/main.css" />
+  <link rel="stylesheet" href="https://drand.github.io/css/main.css" />
 </head>
 <body class="is-preload">
   <div id="page-wrapper">
@@ -123,7 +123,7 @@
           <div class="col-2">
             <a href="https://dedis.epfl.ch" >
               <span class="image fit pic">
-                <img src="https://drand.io/img/epfl.png">
+                <img src="https://drand.github.io/img/epfl.png">
                 <div class="text">DeDiS Lab</div>
               </span>
             </a>
@@ -131,7 +131,7 @@
           <div class="col-2">
             <a href="https://www.cloudflare.com" >
               <span class="image fit pic">
-                <img src="https://drand.io/img/cf.png">
+                <img src="https://drand.github.io/img/cf.png">
                 <div class="text">Cloudflare</div>
               </span>
             </a>
@@ -139,7 +139,7 @@
           <div class="col-2">
             <a href="https://www.kudelskisecurity.com" >
               <span class="image fit pic">
-                <img src="https://drand.io/img/ks.png">
+                <img src="https://drand.github.io/img/ks.png">
                 <div class="text">Kudelski Security</div>
               </span>
             </a>
@@ -147,7 +147,7 @@
           <div class="col-2">
             <a href="http://www.uchile.cl/english" >
               <span class="image fit pic">
-                <img src="https://drand.io/img/uoc.png">
+                <img src="https://drand.github.io/img/uoc.png">
                 <div class="text">University of Chile</div>
               </span>
             </a>
@@ -155,7 +155,7 @@
           <div class="col-2">
             <a href="https://protocol.ai" >
               <span class="image fit pic">
-                <img src="https://drand.io/img/pl.png">
+                <img src="https://drand.github.io/img/pl.png">
                 <div class="text">Protocol Labs</div>
               </span>
             </a>
@@ -184,17 +184,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/ip-geolocation-api-jquery-sdk@1.0.6/ipgeolocation.min.js"></script>
     <script>
-        window.worker = new Worker("https:\/\/drand.io\/js/api.js");
+        window.worker = new Worker("https:\/\/drand.github.io\/js/api.js");
         window.worker.postMessage({
             cmd: "loadDrand",
-            path: "https:\/\/drand.io\/js/drandjs/dist/drandjs.js"
+            path: "https:\/\/drand.github.io\/js/drandjs/dist/drandjs.js"
         });
     </script>
-  <script src="https://drand.io/js/display.js"></script>
-  <script src="https://drand.io/js/drandjs/dist/drandjs.js"></script>
+  <script src="https://drand.github.io/js/display.js"></script>
+  <script src="https://drand.github.io/js/drandjs/dist/drandjs.js"></script>
 
   <script>
-    window.identity = {Address: "drand.zerobyte.xyz", 
+    window.identity = {Address: "drand.nikkolasg.xyz:8888", 
           TLS:  true };
 
     displayRandomness();
