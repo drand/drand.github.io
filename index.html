@@ -180,27 +180,18 @@
   </div>
 
   
-  
+  <script src="https://cdn.jsdelivr.net/gh/PizzaWhisperer/drandjs/dist/drand.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
   <script src="https://cdn.jsdelivr.net/npm/ip-geolocation-api-jquery-sdk@1.0.6/ipgeolocation.min.js"></script>
-    <script>
-        window.worker = new Worker("https:\/\/drand.github.io\/js/api.js");
-        window.worker.postMessage({
-            cmd: "loadDrand",
-            path: "https:\/\/drand.github.io\/js/drandjs/dist/drandjs.js"
-        });
-    </script>
   <script src="https://drand.github.io/js/display.js"></script>
-  <script src="https://drand.github.io/js/drandjs/dist/drandjs.js"></script>
 
   <script>
-    window.identity = {Address: "drand.nikkolasg.xyz:8888", 
-          TLS:  true };
+    window.identity = {Address: "drand.nikkolasg.xyz:8888", TLS: true};
+    window.distkey = defaultDistKey;
 
     displayRandomness();
     var id = window.setInterval(displayRandomness, 60000);
-
-     </script>
+  </script>
 
 </body>
 </html>
